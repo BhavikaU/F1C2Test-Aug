@@ -1,0 +1,145 @@
+* {
+    font-family: 'Arial', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: aqua;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    width: 1500px;
+    height:50px;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(255, 153, 0);
+    
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ #navbar li {
+    margin:  10px;
+     
+}  
+
+#navbar a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    color: #fff;
+    padding-right: 0px;
+    margin-bottom: 30px;
+}
+
+#navbar a:hover {
+    color: black;
+    
+}
+
+#books {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    width: 40vw;
+    background-color: pink;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+td,th {
+    border: 1px solid black;
+}
+
+.table1 {
+    padding: 10px;
+}
+
+.table2 {
+    padding: 10px;
+}
+
+.top {
+    margin-top: 10px;
+}
+
+td,th {
+    padding: 10px;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #796ce1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    /* used to control the horizontal alignment of the child elements */
+    justify-content: center; 
+    /* is used to control the vertical alignment of the child elements */
+    align-items: center;
+    width: 40vw;
+}
+
+.container h2 {
+    text-align: left;
+    color: black;;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color:black;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="date"],
+.form-group input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+     /* margin-right: 10px;  */
+}
+
+.form-group input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    /* margin-right: 10px; */
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #2f2f33;
+}
